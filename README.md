@@ -1,2 +1,2 @@
 # CountingGrids
-Basic Matlab code for learning counting grids + binary of the browsing tool for Windows
+This is a fork of the original repo for linux & octave support
