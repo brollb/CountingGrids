@@ -1,4 +1,5 @@
 % Main script
+pkg load image
 addpath('./Code')
 
 input_file_name='dictionaryVerySmallSample.txt';

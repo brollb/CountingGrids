@@ -56,7 +56,7 @@ for t=1:Ndocs
 end
     
 tmp=sum(countsBig,2);
-[~, fr_ind]=sort(tmp,'Descend');
+[~, fr_ind]=sort(tmp,'descend');
 counts=countsBig(fr_ind(2:end),:); %get rid of docend
 VOC=VOCbig(fr_ind(2:end));
 
@@ -89,7 +89,7 @@ while sz(1)~=size(counts,1) || sz(2)~=size(counts,2)
     counts=counts(:,ind);
 end
 
-save -v7.3 Model\alldata abstracts titles links counts  VOC
+save Model/alldata abstracts titles links counts  VOC
 % counts is a words X document matrix of word counts;
 % VOC is the vocabulary; size(counts,1) is equal to length(VOC)
 
