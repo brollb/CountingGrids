@@ -9,7 +9,7 @@
 % pi: the counting grid consisting of word probabilities in a grid
 
 
-browser_data_dir = ['Browser\Data\',output_file_name]; 
+browser_data_dir = ['Browser/Data/',output_file_name]; 
 
 %wd_size = [5 5]; % window size
 %cg_size = [32,32]; % grid size

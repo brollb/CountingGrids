@@ -56,7 +56,7 @@ for m=1:length( missing_words )
 end
 
 
-fid = fopen([curr_target ,'\top_pi.txt'],'w');
+fid = fopen([curr_target ,'/top_pi.txt'],'w');
 for y=1:cg_size(1)
     for x=1:cg_size(2)
         tmp = ['row:',num2str(y),'\t','col:',num2str(x)];
