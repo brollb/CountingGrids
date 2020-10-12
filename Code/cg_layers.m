@@ -37,7 +37,7 @@ for iter = 1:nmax
     if iter >= start_ql
         
         if iter == start_ql;
-            save('Model\before_iterating_ql','pi_la','qla');
+            save('Model/before_iterating_ql','pi_la','qla');
 %             qla = qla + rand( size( qla));
 %             qla = bsxfun(@rdivide, qla, sum( qla ));
         end
@@ -127,7 +127,7 @@ for iter = 1:nmax
 %     
     
 end
-save('Model\after_iterating_ql','pi_la','qla');
+save('Model/after_iterating_ql','pi_la','qla');
 end
 
 function h = compute_h_noLoopFull( H, xW, yW )

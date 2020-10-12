@@ -144,6 +144,6 @@ fclose(fid);
 %     end
 %     fclose(fid);
 
-save Model\pi pi
-save Model\pi_la pi_la
+save Model/pi pi
+save Model/pi_la pi_la
 
